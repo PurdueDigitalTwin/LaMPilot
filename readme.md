@@ -1,6 +1,6 @@
 # LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs
 
-[![Paper](https://img.shields.io/badge/Paper-CVPR%202024-blue)](https://github.com/PurdueDigitalTwin/LaMPilot/blob/main/assets/preprint.pdf)
+[![Paper](https://img.shields.io/badge/Paper-CVPR%202024-blue)](https://github.com/PurdueDigitalTwin/LaMPilot/blob/master/assets/preprint.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-2312.04372-b31b1b.svg)](https://arxiv.org/abs/2312.04372)
 
 This is the official GitHub repository for the paper "LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs", accepted to CVPR 2024.
