@@ -1,0 +1,316 @@
+{
+  "commands": [
+    "Decrease current speed by 4 meters per second",
+    "Decelerate speed by 4 meters per second",
+    "Decrease ACC speed by 4 meters per second",
+    "Decelerate ACC speed by 4 meters per second",
+    "Reduce current speed by 4 meters per second.",
+    "Lower the speed by 4 meters per second.",
+    "Slow down the speed by 4 meters per second.",
+    "Drop the ACC speed by 4 meters per second.",
+    "Lessen the ACC speed by 4 meters per second.",
+    "Subtract 4 meters per second from the current speed."
+  ],
+  "samples": [
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 11,
+        "vehicles_density": 0.11,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 101
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 12,
+        "vehicles_density": 0.12,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 102
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 13,
+        "vehicles_density": 0.13,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 103
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 14,
+        "vehicles_density": 0.14,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 104
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 15,
+        "vehicles_density": 0.15,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 105
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 16,
+        "vehicles_density": 0.16,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 106
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 17,
+        "vehicles_density": 0.517,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 107
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 18,
+        "vehicles_density": 0.68,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 108
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 19,
+        "vehicles_density": 0.4,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 109
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 20,
+        "vehicles_density": 0.5,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            1
+          ],
+          "start_position": [
+            110,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "ACCEvalbySpeed",
+        "rel_speed": -4
+      },
+      "seed": 110
+    }
+  ]
+}

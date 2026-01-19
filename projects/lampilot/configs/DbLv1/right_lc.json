@@ -1,0 +1,616 @@
+{
+  "commands": [
+    "Make a right lane change.",
+    "Switch to the right lane.",
+    "Move into the right lane.",
+    "Change lanes to the right.",
+    "Change to the right lane.",
+    "Move to the right lane.",
+    "Get into the right lane.",
+    "Merge into the right lane.",
+    "Merge to the right lane.",
+    "Merge right."
+  ],
+  "samples": [
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 40,
+        "vehicles_density": 0.1,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 251
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 41,
+        "vehicles_density": 0.11,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 252
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 42,
+        "vehicles_density": 0.12,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 253
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 43,
+        "vehicles_density": 0.13,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 254
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 44,
+        "vehicles_density": 0.14,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 255
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 45,
+        "vehicles_density": 0.65,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 256
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 46,
+        "vehicles_density": 0.16,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 257
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 47,
+        "vehicles_density": 0.57,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 258
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 48,
+        "vehicles_density": 0.58,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 259
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 79,
+        "vehicles_density": 0.59,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 260
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 50,
+        "vehicles_density": 0.2,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 261
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 51,
+        "vehicles_density": 0.21,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 262
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 52,
+        "vehicles_density": 0.22,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 263
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 53,
+        "vehicles_density": 0.63,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 264
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 54,
+        "vehicles_density": 0.24,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 265
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 55,
+        "vehicles_density": 0.25,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 266
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 56,
+        "vehicles_density": 0.96,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 267
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 57,
+        "vehicles_density": 0.34,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 268
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 66,
+        "vehicles_density": 0.18,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 269
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 30,
+        "vehicles_density": 1.0,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            110,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "LaneChangeEval",
+        "direction": "right"
+      },
+      "seed": 270
+    }
+  ]
+}

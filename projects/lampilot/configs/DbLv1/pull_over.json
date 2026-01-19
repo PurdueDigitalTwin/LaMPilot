@@ -1,0 +1,544 @@
+{
+  "commands": [
+    "Could you guide the car into the emergency lane and stop?",
+    "Let's move the vehicle to the emergency lane and come to a halt.",
+    "Please steer into the emergency lane and bring the car to a standstill.",
+    "I need you to veer off into the emergency lane and park.",
+    "Make your way to the emergency lane and put the car in park, please.",
+    "Take the car over to the emergency lane and pull to a stop.",
+    "Find a spot in the emergency lane and pull over, thanks.",
+    "Head for the emergency lane and cease driving, if you would.",
+    "Maneuver into the emergency lane and stop the vehicle there.",
+    "Navigate to the emergency lane and bring the car to a stop, please."
+  ],
+  "samples": [
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 10,
+        "num_lanes": 3,
+        "vehicles_density": 0.1,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 311
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 11,
+        "vehicles_density": 0.11,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 312
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 42,
+        "num_lanes": 6,
+        "vehicles_density": 0.42,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 313
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 53,
+        "vehicles_density": 0.33,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 314
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 14,
+        "num_lanes": 6,
+        "vehicles_density": 0.14,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 315
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 55,
+        "vehicles_density": 0.55,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 316
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 76,
+        "vehicles_density": 0.76,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 317
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 27,
+        "vehicles_density": 0.27,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 318
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 18,
+        "num_lanes": 3,
+        "vehicles_density": 0.18,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 319
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 19,
+        "vehicles_density": 0.19,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 75,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 320
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 90,
+        "vehicles_density": 0.7,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 105,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 321
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 21,
+        "vehicles_density": 0.21,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 95,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 322
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 72,
+        "vehicles_density": 0.62,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 323
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 23,
+        "vehicles_density": 0.73,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 324
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 24,
+        "num_lanes": 4,
+        "vehicles_density": 0.24,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 325
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 25,
+        "vehicles_density": 0.25,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 326
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 28,
+        "num_lanes": 8,
+        "vehicles_density": 0.24,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 327
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 30,
+        "vehicles_density": 0.9,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 328
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 29,
+        "vehicles_density": 0.29,
+        "num_lanes": 7,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            1
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 329
+    },
+    {
+      "env": {
+        "type": "dt-highway-v0",
+        "vehicles_count": 40,
+        "num_lanes": 4,
+        "vehicles_density": 0.5,
+        "stage_length": [
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 25,
+          "start_lane_index": [
+            "a",
+            "b",
+            0
+          ],
+          "start_position": [
+            110,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "PullOverEval"
+      },
+      "seed": 330
+    }
+  ]
+}

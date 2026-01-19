@@ -1,0 +1,120 @@
+Command: Decrease gap to 25 meters.
+Context Info: My current speed is 31.3 m/s. I am driving on a highway with 2 lanes in my direction, and I am in the 1st lane from the right. There is a car in front of me in my lane, at a distance of 57.7 m, with a speed of 21.6 m/s.
+
+Plan:
+1) Check if there is a vehicle in front of the ego vehicle in the current lane within 100 meters.
+2) If so, set the target speed of the ego vehicle to 1.2 times the speed of the front vehicle to follow it with the IDM model.
+3) Check the current gap between the ego vehicle and the front vehicle.
+4) If the current gap is greater than the desired gap, decrease the desired time headway by 0.05 seconds.
+5) If the current gap is less than the desired gap, increase the desired time headway by 0.05 seconds.
+6) Repeat steps 1-5 until there is no vehicle in front of the ego vehicle in the current lane within 100 meters.
+Code:
+```python
+def decrease_gap_to_25_meters():
+    ego_vehicle = get_ego_vehicle()
+    current_lane = get_lane_of(ego_vehicle)
+    desired_gap = 25
+    while True:
+        front_vehicle = detect_front_vehicle_in(current_lane)
+        if front_vehicle:
+            front_vehicle_speed = get_speed_of(front_vehicle)
+            set_target_speed(front_vehicle_speed * 1.2)
+            current_time_headway = get_desired_time_headway()
+            current_gap = get_distance_between_vehicles(front_vehicle, ego_vehicle)
+            if current_gap > desired_gap:
+                set_desired_time_headway(current_time_headway - 0.05)
+            else:
+                set_desired_time_headway(current_time_headway + 0.05)
+            yield autopilot()
+        else:
+            return
+```
+
+
+Command: Go around the car in front of you using the left lane.
+Context Info: My current speed is 31.3 m/s. I am driving on a highway with 2 lanes in my direction, and I am in the 1st lane from the right. There is a car in front of me in my lane, at a distance of 94.8 m, with a speed of 29.3 m/s.
+
+Plan:
+1) Check if there is a left lane available.
+2) Check if there is a vehicle in front of the ego vehicle in the current lane within 100 meters.
+3) If so, check if it is safe to enter the left lane.
+4) If it is safe to enter the left lane, set the target lane of the ego vehicle to the left lane.
+5) Monitor the distance to the target vehicle.
+6) If the target vehicle is still in front of the ego vehicle, set the target speed of the ego vehicle to 1.5 times the speed of the target vehicle.
+7) Repeat steps 5-6 until the target vehicle is no longer in front of the ego vehicle.
+Code:
+```python
+def overtake_using_left_lane():
+    # Check if there is a left lane available
+    ego_vehicle = get_ego_vehicle()
+    current_lane = get_lane_of(ego_vehicle)
+    left_lane = get_left_lane(ego_vehicle)
+    target_vehicle = detect_front_vehicle_in(current_lane)
+
+    if left_lane is None:
+        say("There is no left lane to change into.")
+        return
+    if target_vehicle is None:
+        say("There is no vehicle in front of me.")
+        return
+
+    # Check if it is safe to enter the left lane
+    while True:
+        if is_safe_enter(left_lane):
+            set_target_lane(left_lane)
+            break
+        yield autopilot()
+
+    # Monitor the distance to the target vehicle
+    while True:
+        distance_to_target = get_distance_between_vehicles(ego_vehicle, target_vehicle)
+        if distance_to_target < 0:  # The target vehicle is still in front of the ego vehicle
+            set_target_speed(get_speed_of(target_vehicle) * 1.5)
+            yield autopilot()
+        else:
+            break
+```
+
+
+Command: Continue straight ahead at the intersection.
+Context Info: My current speed is 10.0 m/s. I am driving on a two-way road with one lane in each direction. I am approaching an intersection with a stop sign that is 90 meters ahead. and the `autopilot` will bring the car to a stop. The current lane allows for left turns, right turns, and going straight. In case you want to change the planned route, do it now before the car stops. Continuously monitor the speed and only recover from stop when the speed has fallen below 1 m/s and it is safe to enter the cross traffic lanes. 
+
+Plan:
+1) Use the `detect_stop_sign_ahead` API to check the distance to the stop sign.
+2) If the stop sign is detected, use the `go_straight_at_next_intersection` API to set the planned route to continue straight.
+3) Monitor the speed of the ego vehicle using the `get_speed_of` API.
+4) When the speed of the ego vehicle falls below 1 m/s, check for safety using the `is_safe_enter` API for each of the cross traffic lanes.
+5) If it is safe to enter, use the `recover_from_stop` API to resume driving.
+6) If it is not safe to enter, continue to yield `autopilot` until it becomes safe.
+Code:
+```python
+def continue_straight_at_intersection():
+    # Set the planned route to continue straight at the next intersection
+    go_straight_at_next_intersection()
+
+    while True:
+        # Check the distance to the stop sign
+        stop_sign_distance = detect_stop_sign_ahead()
+
+        # If the stop sign is within a close range, start monitoring the speed
+        if stop_sign_distance > 0 and stop_sign_distance <= 90:
+            # Get the current speed of the ego vehicle
+            ego_speed = get_speed_of(get_ego_vehicle())
+
+            # If the speed is below 1 m/s, check if it's safe to enter the intersection
+            if ego_speed < 1:
+                # Get the cross traffic lanes
+                left_to_right_lanes = get_left_to_right_cross_traffic_lanes()
+                right_to_left_lanes = get_right_to_left_cross_traffic_lanes()
+                
+                # Check if it's safe to enter for both directions
+                is_safe_to_enter = all(is_safe_enter(lane) for lane in left_to_right_lanes + right_to_left_lanes)
+
+                # If it's safe to enter, recover from stop and break the loop
+                if is_safe_to_enter:
+                    recover_from_stop()
+                    break
+
+        # Yield autopilot to let the vehicle drive for one time step
+        yield autopilot()
+```

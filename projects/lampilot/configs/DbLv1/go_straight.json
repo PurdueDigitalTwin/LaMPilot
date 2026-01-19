@@ -1,0 +1,623 @@
+{
+  "commands": [
+    "Continue straight ahead at the intersection.",
+    "Go straight at the intersection.",
+    "Don't turn at the crossroad, just proceed straight.",
+    "At the crossroad, keep going straight.",
+    "Do not deviate from your path at the intersection.",
+    "Proceed directly ahead at the crossroad.",
+    "Keep your course straight at the intersection.",
+    "At the crossroad, your direction should be straight.",
+    "Follow the straight path at the crossroad.",
+    "Don't take any turns at the intersection, just keep going straight."
+  ],
+  "samples": [
+    {
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 1,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 1
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 431
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 2
+
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 432
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 3
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 433
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 10,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 4,
+        "spawn_probability_right": 0.2,
+        "spawn_probability_left": 0.2
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 434
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 5
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 435
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 6
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 436
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 7
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 437
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 8
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 438
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 2,
+        "num_vehicles_left": 1
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 439
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 1,
+        "num_vehicles_left": 2
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 440
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 2,
+        "num_vehicles_left": 3
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 441
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 2,
+        "num_vehicles_left": 4
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 442
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 2,
+        "num_vehicles_left": 5
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 443
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 2,
+        "num_vehicles_left": 6
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 444
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 2,
+        "num_vehicles_left": 7
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 445
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 2,
+        "num_vehicles_left": 8
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 446
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 1
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 447
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 2
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 448
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 3
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 449
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 4
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 450
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 5
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 451
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 6
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 452
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 7
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 453
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 3,
+        "num_vehicles_left": 8
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 454
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 1
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 455
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 2
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 456
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 3
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 457
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 4
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 458
+    },
+    {
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 5
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 459
+    },
+    {
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 6
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 460
+    },
+    {
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 7
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 461
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 4,
+        "num_vehicles_left": 8
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 462
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 1
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 463
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 2
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 464
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 3
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 465
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 4
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 466
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 5
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 467
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 6
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 468
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 7
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 469
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 5,
+        "num_vehicles_left": 8
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 470
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 1
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 471
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 2
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 472
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 3
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 473
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 4
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 474
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 5
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 475
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 6
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 476
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 7
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 477
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 6,
+        "num_vehicles_left": 8
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed":478
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 7,
+        "num_vehicles_left": 1
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 479
+    },{
+      "env": {
+        "type": "dt-intersection-v0",
+        "vehicles_count": 20,
+        "num_vehicles_right": 7,
+        "num_vehicles_left": 2
+      },
+      "eval": {
+        "type": "IntersectionEval",
+        "direction": ["il2","o2",0]
+      },
+      "seed": 480
+    }
+  ]
+}

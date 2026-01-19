@@ -1,0 +1,616 @@
+{
+  "commands": [
+    "Go around the car in front of you using the right lane.",
+    "Move ahead of the vehicle in front using the right lane.",
+    "Overtake the lead vehicle by using the right lane.",
+    "Pass the car ahead by driving in the right lane.",
+    "Get in the right lane and go past the front vehicle.",
+    "Pass the vehicle by right lane.",
+    "Surpass the car in front by utilizing the right lane.",
+    "Navigate past the lead vehicle in the right lane.",
+    "Take the right lane to overtake the vehicle ahead.",
+    "Bypass the vehicle in front by navigating the right lane."
+  ],
+  "samples": [
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 45,
+        "vehicles_density": 0.32,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 1847432543253
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 29,
+        "vehicles_density": 0.73,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 55,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 292
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 27,
+        "vehicles_density": 0.22,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 75,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 293244
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 18,
+        "vehicles_density": 0.24,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 55,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 29445
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 33,
+        "vehicles_density": 0.24,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 1133422345443543225354
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 50,
+        "vehicles_density": 0.45,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 296321423515423
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 21,
+        "vehicles_density": 0.26,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 55,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 297
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 22,
+        "vehicles_density": 0.47,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 55,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 298
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 53,
+        "vehicles_density": 0.58,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 299235434
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 24,
+        "vehicles_density": 0.69,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 30034353
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 15,
+        "vehicles_density": 0.13,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 105,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 3013234523453
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 16,
+        "vehicles_density": 0.741,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 105,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 30234523
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 67,
+        "vehicles_density": 0.762,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 303321253434
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 18,
+        "vehicles_density": 0.13,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 304525432534245345245234532
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 9,
+        "vehicles_density": 0.08,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 105,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 305454535
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 10,
+        "vehicles_density": 0.25,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 3065436435643
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 61,
+        "vehicles_density": 0.56,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 3076537456
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 53,
+        "vehicles_density": 0.62,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 308656754234
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 13,
+        "vehicles_density": 0.18,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 85,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 3095657886757655678567856785767565767568768
+    },
+    {
+      "env": {
+        "type": "ramp-merge-v0",
+        "vehicles_count": 15,
+        "vehicles_density": 0.1,
+        "stage_length": [
+          500,
+          80,
+          80,
+          2000
+        ],
+        "ego_vehicle": {
+          "speed": 105,
+          "start_lane_index": [
+            "c",
+            "d",
+            0
+          ],
+          "start_position": [
+            105,
+            0
+          ]
+        }
+      },
+      "eval": {
+        "type": "OvertakeEval",
+        "direction": "right"
+      },
+      "seed": 3105667895675866879789678
+    }
+  ]
+}
